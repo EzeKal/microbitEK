@@ -1,0 +1,30 @@
+The rpsbit app is a rock paper, scissors app for the micro:bit V2.
+
+How to install on your micro:bit V2:
+First, download the rpsbit.py app in this repo.
+Then, open 'https://python.microbit.org/'.
+After that, click the Open button on the website.
+A file picker should open up, select the rpsbit.py file you opened.
+Now, press the Save button on the website to save a .hex file to your device.
+Finally, plug in the micro:bit and transfer the file to the drive called 'MICROBIT'.
+Wait for it to flash.
+Now you're done!
+
+How to play:
+
+You play against the micro:bit.
+
+Options:
+1. Gold Logo - Rock
+2. Button A - Paper
+3. Button B - Scissors
+
+To use it, first wait for the 321 countdown to end so it goes back to the happy face, then click the option you want to choose.
+After that, the micro:bit will choose it's option by showing an arrow towards the option it has chose.
+
+Finally, it will show one of these symbols with a sound effect:
+1. A Tick - This means you have won.
+2. A Cross - This means you have lost.
+3. A face with closed eyes and a straight mouth. - This means you have a tie, both sides have chose the same option.
+
+Tip: If you want to play another match against the micro:bit V2, you can press the 'Reset' button on the back of your micro:bit V2.
