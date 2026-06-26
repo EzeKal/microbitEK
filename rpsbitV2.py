@@ -27,12 +27,12 @@ sleep(1000)
 display.show(Image.HAPPY)
 music.play(music.JUMP_UP)
 while user == 0:
- if button_a.is_pressed():
-   user=2
- elif button_b.is_pressed():
-   user=3
- elif pin_logo.is_touched():
-   user=1
+  if button_a.is_pressed():
+    user=2
+  elif button_b.is_pressed():
+    user=3
+  elif pin_logo.is_touched():
+    user=1
 robot=random.randint(1,3)
 if user == 1:
   if robot == 1:
