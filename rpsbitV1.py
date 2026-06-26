@@ -1,5 +1,5 @@
-# Made by Ezel K. A rock, paper, scissors app for the micro:bit V2.
-# Read the file labelled 'rpsbit_description.txt' in this repo to learn how to use this app and install this app onto your micro:bit.
+# Made by Ezel K. A rock, paper, scissors app for the micro:bit V1.
+# Read the file labelled 'rpsbitV1_description.txt' in this repo to learn how to use this app and install this app onto your micro:bit.
 # Copyright (C) 2026 Ezel K.
 # Licensed under the MIT License (see LICENSE file).
 
