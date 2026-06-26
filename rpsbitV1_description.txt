@@ -20,7 +20,7 @@ How to play:
 You play against the micro:bit:
 
 Options:
-1. Pin 2 - Rock - Touch Pin 2 with your finger.
+1. Pin 2 with GND Pin - Rock - Touch Pin 2 and the pin labelled 'GND'. Make sure you touch both pins together at the same time with your finger.
 2. Button A - Paper - Press Button A with your finger.
 3. Button B - Scissors - Press Button B with your finger.
 
