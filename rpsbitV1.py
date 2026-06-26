@@ -11,6 +11,8 @@ import speech
 user = 0
 robot = 0
 
+pin2.set_touch_mode(pin2.CAPACITIVE)
+
 display.show(Image.HAPPY)
 music.play(music.BA_DING)
 sleep(750)
