@@ -5,6 +5,7 @@
 The rpsbit app is a rock paper, scissors app for the micro:bit V2.
 
 How to install on your micro:bit V2:
+
 First, download the rpsbit.py app in this repo.
 Then, open 'https://python.microbit.org/'.
 After that, click the Open button on the website.
@@ -16,7 +17,7 @@ Now you're done!
 
 How to play:
 
-You play against the micro:bit.
+You play against the micro:bit:
 
 Options:
 1. Gold Logo - Rock
