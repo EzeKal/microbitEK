@@ -2,14 +2,14 @@
 # Copyright (C) 2026 Ezel K.
 # Licensed under the MIT License (see LICENSE file).
 
-The rpsbit app is a rock paper, scissors app for the micro:bit V2.
+The rpsbitV2 app is a rock paper, scissors app for the micro:bit V2.
 
 How to install on your micro:bit V2:
 
 First, download the rpsbitV2.py app in this repo.
 Then, open 'https://python.microbit.org/'.
 After that, click the Open button on the website.
-A file picker should open up, select the rpsbit.py file you opened.
+A file picker should open up, select the rpsbitV2.py file you opened.
 Now, press the Save button on the website to save a .hex file to your device.
 Finally, plug in the micro:bit and transfer the file to the drive called 'MICROBIT'.
 Wait for it to flash.
