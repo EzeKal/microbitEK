@@ -8,4 +8,7 @@ This is a repo where I put projects I make for the micro:bit so other people can
 # micro:bit Projects:
 
 • Rock, Paper scissors for the micro:bit V2. 
-File on this repo: rpsbit.py
+File on this repo: rpsbitV2.py
+
+• Rock, Paper scissors for the micro:bit V1. 
+File on this repo: rpsbitV1.py
