@@ -4,7 +4,6 @@
 # Licensed under the MIT License (see LICENSE file).
 
 from microbit import *
-import speech
 import random
 import music
 
@@ -13,16 +12,13 @@ robot = 0
 
 display.show(Image.HAPPY)
 music.play(music.BA_DING)
-sleep(750)
+sleep(625)
 music.play(['c'])
 display.scroll(3)
-sleep(500)
 music.play(['c'])
 display.scroll(2)
-sleep(500)
 music.play(['c'])
 display.scroll(1)
-sleep(500)
 display.show(Image.HAPPY)
 music.play(music.JUMP_UP)
 while user == 0:
