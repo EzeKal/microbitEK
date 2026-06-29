@@ -10,6 +10,24 @@ import random
 user = 0
 robot = 0
 
+rock = Image('09990:'
+             '99999:'
+             '99999:'
+             '99999:'
+             '09990:')
+
+paper = Image('09990:'
+              '09990:'
+              '09990:'
+              '09990:'
+              '09990:')
+
+scissors = Image('90009:'
+                 '09090:'
+                 '00900:'
+                 '99099:'
+                 '99099:')
+
 display.show(Image.HAPPY)
 music.play(music.BA_DING)
 sleep(625)
@@ -32,57 +50,57 @@ robot=random.randint(1,3)
 if user == 1:
   if robot == 1:
     sleep(750)
-    display.show(Image.ARROW_N)
+    display.show(rock)
     sleep(750)  
     display.show(Image.ASLEEP)
     music.play(['c','c','c'])
   elif robot == 2:
     sleep(750)
-    display.show(Image.ARROW_W)
+    display.show(paper)
     sleep(750) 
     display.show(Image.NO)
     music.play(music.DADADADUM)
   elif robot == 3:
     sleep(750)
-    display.show(Image.ARROW_E)
+    display.show(scissors)
     sleep(750) 
     display.show(Image.YES)
     music.play(music.POWER_UP)
 elif user == 2:
   if robot == 2:
     sleep(750)
-    display.show(Image.ARROW_W)
+    display.show(paper)
     sleep(750) 
     display.show(Image.ASLEEP)
     music.play(['c','c','c'])
   elif robot == 3:
     sleep(750)
-    display.show(Image.ARROW_E)
+    display.show(scissors)
     sleep(750) 
     display.show(Image.NO)
     music.play(music.DADADADUM)
   elif robot == 1:
     sleep(750)
-    display.show(Image.ARROW_N)
+    display.show(rock)
     sleep(750) 
     display.show(Image.YES)
     music.play(music.POWER_UP)
 elif user == 3:
   if robot == 2:
     sleep(750)
-    display.show(Image.ARROW_W)
+    display.show(paper)
     sleep(750) 
     display.show(Image.YES)
     music.play(music.POWER_UP)
   elif robot == 3:
     sleep(750)
-    display.show(Image.ARROW_E)
+    display.show(scissors)
     sleep(750) 
     display.show(Image.ASLEEP)
     music.play(['c','c','c'])
   elif robot == 1:
     sleep(750)
-    display.show(Image.ARROW_N)
+    display.show(rock)
     sleep(750) 
     display.show(Image.NO)
     music.play(music.DADADADUM)
