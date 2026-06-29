@@ -4,8 +4,8 @@
 # Licensed under the MIT License (see LICENSE file).
 
 from microbit import *
-import random
 import music
+import random
 
 user = 0
 robot = 0
