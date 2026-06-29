@@ -3,11 +3,10 @@
 # Copyright (C) 2026 Ezel K.
 # Licensed under the MIT License (see LICENSE file).
 
-
 from microbit import *
-import music
-import random
 import speech
+import random
+import music
 
 user = 0
 robot = 0
@@ -15,15 +14,15 @@ robot = 0
 display.show(Image.HAPPY)
 music.play(music.BA_DING)
 sleep(750)
-display.show(3)
 music.play(['c'])
-sleep(1000)
-display.show(2)
+display.scroll(3)
+sleep(500)
 music.play(['c'])
-sleep(1000)
-display.show(1)
+display.scroll(2)
+sleep(500)
 music.play(['c'])
-sleep(1000)
+display.scroll(1)
+sleep(500)
 display.show(Image.HAPPY)
 music.play(music.JUMP_UP)
 while user == 0:
@@ -91,7 +90,3 @@ elif user == 3:
     sleep(750) 
     display.show(Image.NO)
     music.play(music.DADADADUM)
-
-      
-    
-    
