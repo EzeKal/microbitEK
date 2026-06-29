@@ -3,7 +3,6 @@
 # Copyright (C) 2026 Ezel K.
 # Licensed under the MIT License (see LICENSE file).
 
-
 from microbit import *
 import speech
 import music
