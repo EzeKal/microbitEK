@@ -25,7 +25,29 @@ Options:
 3. Button B - Scissors - Press Button B with your finger.
 
 To use it, first wait for the 321 countdown to end so it goes back to the happy face, then click the option you want to choose.
-After that, the micro:bit will choose it's option by showing an arrow towards the option it has chose.
+After that, the micro:bit will choose it's option by displaying an image to show what it has chose.
+
+Images:
+
+■   ■
+ ■ ■
+  ■      - Means Scissors
+■■ ■■
+■■ ■■
+
+
+ ■■■
+ ■■■
+ ■■■     - Means Paper  
+ ■■■
+ ■■■
+
+
+ ■■■
+■■■■■
+■■■■■    - Means Rock
+■■■■■
+ ■■■
 
 Finally, it will show one of these symbols with a sound effect:
 1. A Tick - This means you have won.
