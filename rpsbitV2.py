@@ -4,7 +4,6 @@
 # Licensed under the MIT License (see LICENSE file).
 
 from microbit import *
-import speech
 import music
 import random
 
